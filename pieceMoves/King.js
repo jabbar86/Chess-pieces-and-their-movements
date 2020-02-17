@@ -1,5 +1,10 @@
 'use strict';
+/**
+ * The King can move across the board only in 1 steps in any direction.
+ * We have to find all the possible locations the King can move to from the given location.
+ */
 const helpers = require('./../utils/Helpers');
+
 const findPosition = (positionRow, positionColumn) => {
     try {
 

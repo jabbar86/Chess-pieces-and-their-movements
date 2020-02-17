@@ -1,4 +1,9 @@
 'use strict';
+/**
+ * The pawn can only move one space forward
+ * We have to find all the possible locations the pawn can move to from the given location.
+ */
+
 const helpers = require('./../utils/Helpers');
 
 const findPosition = (positionRow, positionColumn) => {
