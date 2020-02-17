@@ -48,7 +48,7 @@ app.post('/piecesMovement', async (req, res) => {
             error: { message: result.error.details[0].message },
             message: result.error.details[0].message
         };
-        return errorObj;
+         res.status(404).send(errorObj);
     }
 
     piece = piece.toUpperCase();
